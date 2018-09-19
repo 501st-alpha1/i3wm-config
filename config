@@ -109,6 +109,9 @@ bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 
+bindsym $mod+n exec i3-input -F 'workspace "%s"' -P 'Switch to (named) workspace: '
+bindsym $mod+Shift+n exec i3-input -F 'move container to workspace "%s"' -P 'Move window(s) to (named) workspace: '
+
 bindsym $mod+comma focus output left
 bindsym $mod+period focus output right
 
