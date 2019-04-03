@@ -28,6 +28,8 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
+# start an emacsclient
+bindsym $mod+Shift+Return exec emacsclient --create-frame
 
 # kill focused window
 bindsym $mod+Shift+q kill
